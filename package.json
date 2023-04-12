@@ -1,0 +1,62 @@
+{
+  "name": "typescriptdemo-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install && npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.3.1",
+    "trtc-js-sdk": "^4.15.6",
+    "vue": "^3.2.26",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-plugin-typescript": "~4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.62.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~4.1.5",
+    "unplugin-auto-import": "^0.15.2",
+    "unplugin-element-plus": "^0.7.1",
+    "unplugin-vue-components": "^0.24.1"
+  },
+  "eslintConfig": {
+    "root": true, 
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
